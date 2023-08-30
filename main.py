@@ -6,8 +6,8 @@ import asyncio
 from asyncio import *
 import logging
 
-APP_ID = int(26670034)
-API_HASH = "bca32fc2207c43e970529e67a5c0821f"
+APP_ID = int(26996374)
+API_HASH = "12121c59e229974deb86532b788cd600"
 
 app = Client("app", api_hash=API_HASH, api_id=APP_ID)
 
@@ -21,7 +21,7 @@ async def main_s(app, message):
 {m_text}
 
 
-@PEGxSCRAPE
+@optrexchk
 """,
   disable_web_page_preview=True,
  )
