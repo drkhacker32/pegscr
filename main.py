@@ -16,7 +16,7 @@ app = Client("app", api_hash=API_HASH, api_id=APP_ID)
 async def main_s(app, message):
  m_text = message.text
  await app.send_message(
-  -1001915589545,
+  -1001819333581,
   text=f"""
 {m_text}
 
